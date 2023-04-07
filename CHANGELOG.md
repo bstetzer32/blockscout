@@ -4,11 +4,18 @@
 
 ### Features
 
+- [#7148](https://github.com/blockscout/blockscout/pull/7148) - API v2 improvements: API rate limiting, `/tokens/{address_hash}/instances/{token_id}/holders` and other changes
+
 ### Fixes
 
+- [#7210](https://github.com/blockscout/blockscout/pull/7210) - Fix Makefile docker image build
+- [#7203](https://github.com/blockscout/blockscout/pull/7203) - Fix write contract functionality for multidimensional arrays case
 - [#7186](https://github.com/blockscout/blockscout/pull/7186) - Fix build from Dockerfile
 
 ### Chore
+
+- [#7107](https://github.com/blockscout/blockscout/pull/7107) - Tx actions: remove excess delete_all calls and remake a cache
+- [#7201](https://github.com/blockscout/blockscout/pull/7201) - Remove rust, cargo from dependencies since the latest version of ex_keccak is using precompiled rust
 
 ## 5.1.2-beta
 
